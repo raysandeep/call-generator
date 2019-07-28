@@ -16,7 +16,7 @@ while(True):
     count = 0
     nw=datetime.datetime.now()
     #print("test")
-    while(nw.hour == 6 and nw.minute == 30 and nw.second == 00):
+    while(nw.hour == 6 and nw.minute == 00 and nw.second == 00):
         print("test-2")
         if(count<1):
             ncco = [
