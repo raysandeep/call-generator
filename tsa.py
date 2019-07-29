@@ -19,7 +19,7 @@ while(True):
     format = "%Y-%m-%d %H:%M:%S %Z%z"
     now_utc = datetime.now(timezone('UTC'))
     now_asia = now_utc.astimezone(timezone('Asia/Kolkata'))
-    nw = now_asia.strftime(format))
+    nw = now_asia.strftime(format)
 
     #print("test")
     while(nw.hour == 11 and nw.minute == 40 and nw.second == 00):
