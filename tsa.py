@@ -22,7 +22,7 @@ while(True):
     nw = now_asia.strftime(format))
 
     #print("test")
-    while(nw.hour == 11 and nw.minute == 35 and nw.second == 00):
+    while(nw.hour == 11 and nw.minute == 40 and nw.second == 00):
         print("test-2")
         if(count<1):
             ncco = [
