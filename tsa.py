@@ -19,9 +19,14 @@ while(True):
     now_utc = datetime.now(timezone('UTC'))
     now_asia = now_utc.astimezone(timezone('Asia/Kolkata'))
     nw = now_asia.strftime(format)
+    print(nw)
+    hour = nw.split(" ")[1].split(":")[0]
+    minute = nw.split(" ")[1].split(":")[1]
+    second = nw.split(" ")[1].split(":")[2]
+
 
     #print("test")
-    while(nw.hour == 11 and nw.minute == 45 and nw.second == 00):
+    while(hour == 23 and minute == 55 and second == 00):
         print("test-2")
         if(count<1):
             ncco = [
