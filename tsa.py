@@ -10,8 +10,7 @@ client = nexmo.Client(
 
 
 
-dt=datetime.datetime.today()
-print(dt.weekday())
+
 #monday=0,wednesday=2,friday=4
 
 while(True):
