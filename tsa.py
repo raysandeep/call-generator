@@ -26,7 +26,7 @@ while(True):
     time.sleep(0.9)
 
     #print("test")
-    while(hour == 6 and minute == 52 and second == 00):
+    while(hour == 6 and minute == 54 and second == 00):
         print("test-2")
         if(count<1):
             ncco = [
@@ -51,7 +51,7 @@ while(True):
             pprint(response)
             
             break
-    while(hour == 6 and minute == 54 and second == 00):
+    while(hour == 6 and minute == 56 and second == 00):
         print("test-2")
         if(count<1):
             ncco1 = [
