@@ -11,7 +11,7 @@ ncco = [
 'action': 'talk',
 'voiceName': 'Salli',
 'text': "Hey Muskan Akshat's Girlfriend, Akshat sucks. bye"
-
+}
 ]
 response = client.create_call({
 'to': [{
