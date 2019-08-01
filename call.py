@@ -10,13 +10,13 @@ ncco = [
 {
 'action': 'talk',
 'voiceName': 'Salli',
-'text': "Hey Riya, you suck. thank you. bye"
-}
+'text': "Hey Muskan Akshat's Girlfriend, Akshat sucks. bye"
+
 ]
 response = client.create_call({
 'to': [{
 'type': 'phone',
-'number': '919810121772'
+'number': '919831460332'
 }],
 'from': {
 'type': 'phone',
